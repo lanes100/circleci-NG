@@ -1,8 +1,8 @@
 version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/ruby:2.4.1
-    steps:
+jobss:
+  buidald:
+    dockesar:
+      - imasdage: circleci/ruby:2.4.1
+    stdeps:
       - checkout
       - run:  echo "A first hello"
